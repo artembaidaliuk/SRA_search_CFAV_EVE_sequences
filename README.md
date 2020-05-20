@@ -10,6 +10,7 @@ In order not to fill up the home directory of the desktop, cache is changed by r
 `mkdir -p ~/.ncbi`
 
 `$ echo '/repository/user/main/public/root = "/full/path/to/the/desired/cache/directory"' > ~/.ncbi/user-settings.mkfg`
+
 Check http://databio.org/posts/downloading_sra_data.html
 
 Relocate to the working directory (change it in this script SRA_blast.sh too).
