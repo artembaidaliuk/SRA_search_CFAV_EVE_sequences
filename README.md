@@ -8,6 +8,7 @@ The prefetch is normal and it will put the .sra files in whatever directory assi
 In order not to fill up the home directory of the desktop, cache is changed by running these commands after SRA-tools have been downloaded:
 
 `mkdir -p ~/.ncbi`
+
 `$ echo '/repository/user/main/public/root = "/full/path/to/the/desired/cache/directory"' > ~/.ncbi/user-settings.mkfg`
 Check http://databio.org/posts/downloading_sra_data.html
 
