@@ -1,5 +1,5 @@
 # SRA_search_CFAV_EVE_sequences
-SRA search CFAV-like sequences (potentialy EVEs) performed for the study 'Non-retroviral endogenous viral element limits cognate virus replication 2 in Aedes aegypti ovaries' by Suzuki, Baidaliuk et al., 2020. https://www.biorxiv.org/content/10.1101/751362v1.full
+SRA search CFAV-like sequences (potentialy EVEs) performed for the study 'Non-retroviral endogenous viral element limits cognate virus replication in Aedes aegypti ovaries' by Suzuki, Baidaliuk et al., 2020. https://www.biorxiv.org/content/10.1101/751362v1.full
 
 This is a small program to do 'blastn_vdb' on SRA files with SRA-tools https://github.com/ncbi/sra-tools. Unlike directly running 'blastn_vdb', here SRA files are first downloaded with 'prefetch' into the cache directory. As soon as each file is downloaded 'blastn_vdb' starts on the local file. The advantage over directly running 'blastn_vdb' is that time could be saved due to 'prefetch' downloading for next files in parallel with 'blastn_vdb' on the previous files.
 
