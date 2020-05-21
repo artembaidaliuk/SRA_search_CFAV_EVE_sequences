@@ -25,3 +25,7 @@ Make sure your reference sequence is present in the working directory. In this e
 Run for example batch 4:
 
 `$ ./SRA_blast.sh 4`
+
+
+blastn_vdb_out_XXX folders contain all non empty raw outputs out off all accessions that were attempted in SRR_accessions_XXX/SRX_accessions_XXX files.
+Reference sequence European Nucleotide Archive accessions are LR596014 (CFAV-KPP, also GenBank MK860761) and LR694074 (CFAV-Bangkok).
